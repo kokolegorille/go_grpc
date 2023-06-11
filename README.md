@@ -25,6 +25,7 @@ END OBSOLETE
 Mise à jour, les commandes précédentes semblent obsoletes
 
 ```
+export PATH="$PATH:$(go env GOPATH)/bin"
 go mod init
 go mod edit -require google.golang.org/grpc@v1.55.0
 go mod edit -require google.golang.org/protobuf@v1.30.0
